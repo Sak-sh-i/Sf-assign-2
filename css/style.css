@@ -400,7 +400,7 @@ input:focus {
   width: 100%;
   background: url("../img/sticky-footer.png") center center / cover no-repeat;
   text-align: center;
-  padding: 30px;
+  padding: 28px;
 }
 
 .sticky-footer p {
