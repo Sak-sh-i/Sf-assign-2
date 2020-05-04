@@ -11,10 +11,6 @@
   /* line-height: 2rem; */
 }
 
-/* body {
-  height: 2000px;
-} */
-
 h1,
 h2,
 label,
@@ -70,6 +66,7 @@ input:focus {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
+  flex-wrap: wrap;
 }
 
 .btn {
@@ -111,6 +108,13 @@ input:focus {
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hidden {
+  color: white;
+  font-weight: 600;
+  display: none;
 }
 
 /* Navbar */
@@ -159,6 +163,7 @@ input:focus {
   display: flex;
   justify-content: center;
   align-content: center;
+  flex-wrap: wrap;
 }
 
 .showcase-left,
@@ -166,6 +171,7 @@ input:focus {
   padding: 6px;
   margin: auto 0;
   width: 40%;
+  min-width: 286px;
 }
 
 .showcase h1,
@@ -221,7 +227,7 @@ input:focus {
   color: #4b5658;
 }
 
-.showcase-footer {
+.showcase-footer div {
   color: white;
   margin: 20px 15px 0;
 }
@@ -241,7 +247,6 @@ input:focus {
 .mid-left {
   position: relative;
   width: 50%;
-  min-width: 600px;
   padding: 6px;
   margin: auto 0;
 }
@@ -302,6 +307,7 @@ input:focus {
   width: 50%;
   margin: 0;
   padding: 80px 40px;
+  min-width: 286px;
 }
 
 .bg-wrapper {
@@ -374,12 +380,17 @@ input:focus {
 
 /* Footer */
 .footer {
-  margin: 80px;
+  margin: 48px 80px 100px;
+}
+
+.footer div {
+  margin: 0;
 }
 
 .footer-card {
   width: 25%;
   text-align: justify;
+  margin-bottom: 20px;
 }
 
 .footer-card a {
@@ -415,10 +426,10 @@ input:focus {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   background: url("../img/sticky-footer.png") center center / cover no-repeat;
   text-align: center;
-  padding: 28px;
+  padding: 20px;
 }
 
 .sticky-footer p {
@@ -435,4 +446,24 @@ input:focus {
 
 .sticky-footer .btn:hover {
   background: rgba(255, 255, 255, 1);
+}
+
+.sticky-footer .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  max-width: 851px;
+  margin: auto;
+}
+
+.sticky-footer .content p,
+.sticky-footer .content a {
+  width: 50%;
+  margin: auto;
+}
+
+.sticky-footer .content a {
+  width: 150px;
+  margin-top: 20px;
 }
