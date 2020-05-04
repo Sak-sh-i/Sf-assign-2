@@ -1,0 +1,29 @@
+@media (min-width: 1341px) {
+  .bottom-wrapper .col {
+    max-width: 620px;
+  }
+
+  .mid-right {
+    max-width: 450px;
+  }
+
+  .showcase-left,
+  .showcase-right {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 1340px) {
+  .coder-girl {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .showcase-flex,
+  .flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
