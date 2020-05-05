@@ -17,7 +17,7 @@
   }
 }
 
-@media (max-width: 1340px) {
+@media (max-width: 1540px) {
   .coder-girl {
     display: none;
   }
@@ -74,7 +74,7 @@
   }
 }
 
-@media (max-width: 790px) {
+@media (max-width: 1046px) {
   .nav-container,
   .nav-container ul {
     display: flex;
@@ -94,7 +94,7 @@
   .logo-container svg {
     text-align: center;
     position: relative;
-    left: 48%;
+    left: 42%;
   }
 }
 
