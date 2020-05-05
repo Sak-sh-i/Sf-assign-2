@@ -51,8 +51,12 @@ input:focus {
 }
 
 /* Utility classes */
-.heading {
+.nav-container .heading {
   color: #5fcf80;
+}
+
+.nav-container .heading:hover {
+  color: #56b873;
 }
 
 .left,
@@ -126,10 +130,14 @@ input:focus {
   z-index: 20;
 }
 
-.nav-container {
+.nav-container a {
   margin: auto;
   padding: 15px 30px;
   color: #7b8b8e;
+}
+
+.nav-container a:hover {
+  color: #4b5658;
 }
 
 .nav-item-logo-icon {
